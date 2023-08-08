@@ -24,3 +24,15 @@ export const SidebarContainer = styled.div`
     text-align: center;
   }
 `
+export const LinksSociais = styled.ul`
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+
+  li {
+    margin-left: 16px;
+  }
+`
