@@ -3,7 +3,7 @@ import { Lista } from '../../containers/Projetos/styles'
 import { Card, LinkBotao, RepositorioNome, RepositorioDesc } from './styles'
 
 const Projeto = () => {
-  const [repos, setRepos] = useState<any[]>([])
+  const [repos, setRepos] = useState<never[]>([])
   const [estaCarregando, setEstaCarregando] = useState(true)
 
   useEffect(() => {
