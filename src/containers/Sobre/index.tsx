@@ -4,12 +4,13 @@ import { GithubSecao } from './styles'
 
 const Sobre = () => (
   <section>
-    <Titulo fontSize={16}>Sobre mim</Titulo>
+    <Titulo fontSize={16}>Sobre mim:</Titulo>
     <Paragrafo tipo="principal">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure suscipit
-      aperiam earum laborum, fugit ex tenetur ipsum officia voluptates odit,
-      maiores a cupiditate quibusdam totam dolorum fugiat perspiciatis delectus.
-      Dolorum.
+      Formado em Analise de Sistemas pela Fatec em 2016 e estudando Egenharia
+      Fron-end pela EBAC em 2023, tenho 7 anos de experiencia na area de
+      consultoria de TI e estou iniciando a migração da minha carreira para dev
+      front-end. Veja abaixo alguns repositórios do meu perfil no GitHub com
+      projetos pessoais e de estudos realizados no curso da EBAC:
     </Paragrafo>
     <GithubSecao>
       <img src="https://github-readme-stats-xi-six-23.vercel.app/api?username=danijoss&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />

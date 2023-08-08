@@ -14,3 +14,14 @@ export const LinkBotao = styled.a`
   display: inline-block;
   margin-top: 24px;
 `
+export const RepositorioNome = styled.h3`
+  color: ${(props) => props.theme.corPrincipal};
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 16px;
+`
+export const RepositorioDesc = styled.p`
+  font-size: 14px;
+  color: ${(props) => props.theme.corPrincipal};
+  line-height: 22px;
+`
